@@ -38,7 +38,7 @@ const {
 const getShortPath = (longpath) => {
     return '/' + longpath.split('/').slice(-2).join('/');
 };
-const filepath = '/n/imstor/sorger/data/RareCyte/Clarence_Training/stitchingEvaluationRealData/metastasis/Cycle1.rcpnl';
+const filepath = '/Volumes/imstor/sorger/data/RareCyte/YC_02180801_minerva_test/TMA0809.ome.tif';
 const awspath = getShortPath(filepath);
 const id = (+new Date()).toString(36);
 
