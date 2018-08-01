@@ -1,0 +1,34 @@
+
+> minerva-client-demo@0.0.0 test /home/j/git/minerva-client-demo
+> node index.js
+
+jk1estoj
+/36844PRE/Cycle01.rcpnl
+/n/imstor/sorger/data/RareCyte/sample_image_for_website/36844PRE/Cycle01.rcpnl
+=== Create Repository ===
+{ name: 'Repository_jk1estoj',
+  uuid: '17183c97-0dbc-45ac-bd3a-600e74e916a5',
+  raw_storage: 'Destroy' }
+
+=== Create Import ===
+{ uuid: 'aa6184a7-8576-41e5-bc56-cc3a26f00437',
+  complete: false,
+  name: 'Import_jk1estoj',
+  repository_uuid: '17183c97-0dbc-45ac-bd3a-600e74e916a5' }
+
+=== List Imports in Repository ===
+[ { uuid: 'aa6184a7-8576-41e5-bc56-cc3a26f00437',
+    repository_uuid: '17183c97-0dbc-45ac-bd3a-600e74e916a5',
+    name: 'Import_jk1estoj',
+    complete: false } ]
+
+=== Get Import Credentials ===
+{ url:
+   's3://minerva-test-cf-common-rawbucket-t6kd2yzqi263/aa6184a7-8576-41e5-bc56-cc3a26f00437/',
+  credentials:
+   { AccessKeyId: 'ASIAUIAISXSSVWNRIZWJ',
+     SecretAccessKey: 'bi714gazxUMLI4sNjaCOIYWliJO/EILxb30b6RGS',
+     SessionToken:
+      'FQoDYXdzEJP//////////wEaDO5u7ALZbTHiNyei3iKvBNiDl0iF1gP1iex7W7v2dp29fCzTybLLsAmKNQnP9hZe/+E2eDlUMR/3VTR0VDnONjmB4suDi8GqgRhDRcVBA6IuHbWCSy0rGBAc1hcfE7JS/fI1DbOwMX0GCjBf7p9erKJQ8R5jckiGAdSgDAacC3AvuiyQvLsCI++2mzZ4/ogMD8mcU9eD2jTA6O2v0++EmWoo1MBcKEfROQGIAxD52Y5rTHbRyoD3tLmZyaHVUNlZw4PVVETZ3BRZY3p8pj0SuGOyyYvlzxpHfzjA5bB1swHYo+ob9XC9Vo6Mr5eYnJdQ+xxPkrhOJZtKmHO+qJFVAEpXH3/QSjgT6kBSig2GPkuoAFUzghxRilqXZmI1+gjGm+2YYYaInjQAsSeu5VFnsYyHZPRvAdsOx+I8ooAXaqE0+8MMbNlGgRtZnhzJ+4LnONsYKTTag/VDyrUvOS6rjZBiHRwH/KgKMtKprGXsO0FEAioIk08ZE24c44IA1/ra3EhwsnGdrXYO/RMFzSIuuaLmdRLY36pqkWnpyaKPj9B38RzAZlmgMNEt6JzQ7izUYqskrFfqz3R1Cd/ZqYLEQs0tSm/Y/bI7xSUjGnOExc8SDda+D6GVG4oVp0c8uPYIusMTa7T0QXol+sK3wSnnaZrQPpzRebZcvDZnjdNHAVwpsGh5EK+DJ3coAKR9tU6I2MS0IJen9FrJyTgefmGELbm3bhdLEAs+3tdzrtQlLOzwjSPGtfn5uqetEgIWK4Iou+ni2gU=',
+     Expiration: '2018-07-25T18:34:51+00:00' } }
+

@@ -1,0 +1,84 @@
+
+> minerva-client-demo@0.0.0 test /home/j/git/minerva-client-demo
+> node index.js
+
+jk1fcy47
+/JEREMY/JEREMY_GRID_40X-Scan_20180717_135433_01x1x00008.rcpnl
+/n/imstor/sorger/data/RareCyte/JEREMY/JEREMY_GRID_40X-Scan_20180717_135433_01x1x00008.rcpnl
+=== Create Repository ===
+{ name: 'Repository_jk1fcy47',
+  uuid: '065c47ad-14d2-4dd4-a7a3-c47c16c3fcfa',
+  raw_storage: 'Destroy' }
+
+=== Create Import ===
+{ uuid: '6a916777-17a9-4b5d-9f60-a928706e3c05',
+  complete: false,
+  name: 'Import_jk1fcy47',
+  repository_uuid: '065c47ad-14d2-4dd4-a7a3-c47c16c3fcfa' }
+
+=== List Imports in Repository ===
+[ { uuid: '6a916777-17a9-4b5d-9f60-a928706e3c05',
+    repository_uuid: '065c47ad-14d2-4dd4-a7a3-c47c16c3fcfa',
+    name: 'Import_jk1fcy47',
+    complete: false } ]
+
+=== Get Import Credentials ===
+{ url:
+   's3://minerva-test-cf-common-rawbucket-t6kd2yzqi263/6a916777-17a9-4b5d-9f60-a928706e3c05/',
+  credentials:
+   { AccessKeyId: 'ASIAUIAISXSSQJWMKELQ',
+     SecretAccessKey: '34PohvJyiMK7MCsRLD35SbQXq7bb5fQhGuOiZKNj',
+     SessionToken:
+      'FQoDYXdzEJP//////////wEaDLasj0RWG0Qr+diFriKwBD/Hq2aLe8sOmLEkbTuj68WPv3asirVta35clUqo1nu03fMHVHmTZQWwBK8kWxzHnRa8GpDszEsYX8yoveYM1q092a5xreEDfIahYV594bZc7eRGFLI50/rnkcczQx9C0g5Q51XlUusWD/lsrxj5DJk2SfGHA1wygSr49ujcEywyOIv5m8PkT5AvZaE40JVfgyT+b2dj+J1KowF6S4GRCtlAuXBWx/KEuALVQR0xlwa9UyOuFvbSF46RT23j1ImOLj6QUBVXO+4VjW2JJFfEtJvKBjPuNQCdhiMdW3YTvfd56RkELBSoWczCGE34yRHaR6uWT+NjS/nPKB0i8XylbkDoBAx1pPR+HndG9DwIgG8TqAjlCu5N8CPg6WA+yfv9WdR4u+l7sCgyKONYw/FTTJuaIKrqqGb6h3BniOIS8pLfmt552l1E4tttYzen1AXshyrtbaXQOgnJAfz7JS2u/v5YMwxtCygeo5d7k3hiacvt1wfPN+bRKVf6Js8kQD9E9w41ZjlOwCc9N+4s65l9Voo8A0nS46dsCwy2HyM3T13VfFzu9qAMwlUoIAcfh6g+L9gnNiiVsxtoziYrRXYowSAnuMiIJg4ubu0C8HYHQqKwwmQQhmDaJqdmJK9SXl325cO1V42e3y/WZPffB7EhjG36lIq3JNdcR1JLIoWZOTBkgG2GKGuFZG0EfJrZQ4OZW/cGbAiDKBQfwl3MlWpLwabRHNOixaZ/DW8phMU1zgkpKObw4toF',
+     Expiration: '2018-07-25T18:50:30+00:00' } }
+
+=== Upload file ===
+{ ETag: '"40c2c246e193cd6efcf60fc25a439066"' }
+
+=== List Import Bucket ===
+{ IsTruncated: false,
+  Contents:
+   [ { Key:
+        '6a916777-17a9-4b5d-9f60-a928706e3c05//JEREMY/JEREMY_GRID_40X-Scan_20180717_135433_01x1x00008.rcpnl',
+       LastModified: 2018-07-25T17:50:31.000Z,
+       ETag: '"40c2c246e193cd6efcf60fc25a439066"',
+       Size: 22125568,
+       StorageClass: 'STANDARD' } ],
+  Name: 'minerva-test-cf-common-rawbucket-t6kd2yzqi263',
+  Prefix: '6a916777-17a9-4b5d-9f60-a928706e3c05/',
+  MaxKeys: 1000,
+  CommonPrefixes: [],
+  KeyCount: 1 }
+
+=== Set Import Complete ===
+{ complete: true,
+  uuid: '6a916777-17a9-4b5d-9f60-a928706e3c05',
+  name: 'Import_jk1fcy47',
+  repository_uuid: '065c47ad-14d2-4dd4-a7a3-c47c16c3fcfa' }
+
+=== Get Image ===
+{ name: 'JEREMY_GRID_40X-Scan_20180717_135433_01x1x00008[0]',
+  bfu_uuid: '393262b2-ef70-443b-adfc-45d8b0ee55c6',
+  uuid: 'b9e36f16-75a3-4a11-be88-ed838c3b9141',
+  pyramid_levels: 2 }
+
+=== Get Image Credentials ===
+{ bfu_uuid: '393262b2-ef70-443b-adfc-45d8b0ee55c6',
+  pyramid_levels: 2,
+  uuid: 'b9e36f16-75a3-4a11-be88-ed838c3b9141',
+  name: 'JEREMY_GRID_40X-Scan_20180717_135433_01x1x00008[0]' }
+
+=== Get Image Dimensions ===
+{ image:
+   { pyramid_levels: 2,
+     name: 'JEREMY_GRID_40X-Scan_20180717_135433_01x1x00008[0]',
+     bfu_uuid: '393262b2-ef70-443b-adfc-45d8b0ee55c6',
+     uuid: 'b9e36f16-75a3-4a11-be88-ed838c3b9141' },
+  pixels:
+   { SizeC: 1,
+     SizeT: 1,
+     SizeX: 1280,
+     SizeY: 1080,
+     SizeZ: 1,
+     channels: [ [Object] ] } }
+

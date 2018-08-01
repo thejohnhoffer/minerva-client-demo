@@ -11,6 +11,7 @@
     "url": "git+https://github.com/thejohnhoffer/minerva-client-demo.git"
   },
   "dependencies": {
+    "dotenv": "^6.0.0",
     "minerva-client": "github:sorgerlab/minerva-client-js"
   },
   "author": "John Hoffer",
