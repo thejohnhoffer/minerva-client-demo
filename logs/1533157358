@@ -1,0 +1,38 @@
+
+> minerva-client-demo@0.0.0 test /home/j/git/minerva-client-demo
+> node index.js
+
+jkbmb1bx
+/YC_02180801_minerva_test/TMA0809.ome.tif
+/Volumes/imstor/sorger/data/RareCyte/YC_02180801_minerva_test/TMA0809.ome.tif
+Error401 (Unauthorized): {"message":"Unauthorized"}
+TypeError: Cannot read property 'uuid' of undefined
+    at repo.then.data (/home/j/git/minerva-client-demo/helper.js:33:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'uuid' of undefined
+    at impo.then.data (/home/j/git/minerva-client-demo/helper.js:52:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'uuid' of undefined
+    at Promise.all.then (/home/j/git/minerva-client-demo/helper.js:43:50)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'credentials' of undefined
+    at tempCredentials.then.data (/home/j/git/minerva-client-demo/helper.js:62:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'credentials' of undefined
+    at Promise.all.then (/home/j/git/minerva-client-demo/helper.js:96:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'uuid' of undefined
+    at Promise.all.then (/home/j/git/minerva-client-demo/helper.js:125:39)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'uuid' of undefined
+    at wait_for_a_bfu (/home/j/git/minerva-client-demo/helper.js:136:40)
+    at Promise (/home/j/git/minerva-client-demo/helper.js:145:9)
+    at new Promise (<anonymous>)
+    at Promise.all.then (/home/j/git/minerva-client-demo/helper.js:134:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'uuid' of undefined
+    at image.then.data (/home/j/git/minerva-client-demo/helper.js:164:46)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+TypeError: Cannot read property 'uuid' of undefined
+    at image.then.data (/home/j/git/minerva-client-demo/helper.js:172:45)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

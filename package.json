@@ -4,7 +4,8 @@
   "description": "Minerva Client Demo",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "newpass": "node newpass.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,8 @@
   },
   "dependencies": {
     "dotenv": "^6.0.0",
-    "minerva-client": "github:sorgerlab/minerva-client-js"
+    "minerva-client": "github:sorgerlab/minerva-client-js",
+    "node-fetch": "^2.2.0"
   },
   "author": "John Hoffer",
   "license": "MIT",
