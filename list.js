@@ -21,6 +21,8 @@ client.authenticate(user, pass);
 
 const {
   printRet,
+  justData,
+  errExit,
   getImageDimensions
 } = require('./helper.js');
 
@@ -34,5 +36,8 @@ if (args.length > 0) {
   });
   impo.then((data) => {
     return client.listImagesInBFU(data.uuid);
-  }).then(printRet('Get Image'));
+  })
+  .then(printRet('Get Image'))
+  .then(justData)
+  .catch(errExit('Get Image'));
 }

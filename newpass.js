@@ -17,9 +17,8 @@ const oldPassword = 'zclvjO@2^76i';
 const preferredUsername = username;
 const name = 'John Hoffer';
 
-console.log(username, oldPassword)
+console.log(username, oldPassword);
 
-/*
 const token = client.authenticate(username, oldPassword)
   .catch(err => {
     console.error(err);
@@ -40,4 +39,3 @@ const token = client.authenticate(username, oldPassword)
         console.error(err);
       });
   });
-*/
