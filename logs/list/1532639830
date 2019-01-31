@@ -1,8 +1,0 @@
-a7be969a-68ed-485b-996d-6fff990d5348
-=== Get Image ===
-[ { uuid: '648ae0e0-3b51-4b23-9837-81f9c5f5185e',
-    complete: true,
-    name: 'JEREMY_GRID_40X-Scan_20180717_135433_01x1x00008.rcpnl',
-    reader: 'loci.formats.in.DeltavisionReader',
-    import_uuid: 'a7be969a-68ed-485b-996d-6fff990d5348' } ]
-

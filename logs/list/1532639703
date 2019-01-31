@@ -1,8 +1,0 @@
-51f34dec-3094-4d3c-aa28-eae0c413167d
-=== Get Image ===
-[ { uuid: '0162447c-e0d6-4765-83b0-7e48ba9727b8',
-    complete: true,
-    name: 'Cycle1.rcpnl',
-    reader: 'loci.formats.in.DeltavisionReader',
-    import_uuid: '51f34dec-3094-4d3c-aa28-eae0c413167d' } ]
-
