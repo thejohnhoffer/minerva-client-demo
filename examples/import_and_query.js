@@ -8,7 +8,7 @@ const { CognitoUserPool,
          AuthenticationDetails } = require('amazon-cognito-identity-js');
 const AWS = require('aws-sdk');
 const fs = require('fs');
-const { Client } = require('../minerva-client-js');
+const { Client } = require('minerva-client');
 
 const config = readYaml.sync(process.argv[2]);
 

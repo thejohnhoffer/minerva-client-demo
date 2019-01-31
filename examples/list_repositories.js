@@ -32,15 +32,9 @@ const client = new Client(
   config['AppClientId'],
   config['ApiBaseUrl']
 );
+client.authenticate(config['Username'], config['Password'])
+  .catch(errExit('Authenticating'));
 
-client.completeNewPasswordChallenge(
-  config['Username'],
-  config['TemporaryPassword'],
-  config['Password'],
-  {
-    preferred_username: config['PreferredUsername'],
-    name: config['Name']
-  }
-)
-  .then(printRet('Password change'))
-  .catch(errExit('Password change'));
+client.listRepositories()
+  .then(printRet('List Repositories'))
+  .catch(errExit('List Repositories'));
